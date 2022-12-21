@@ -13,7 +13,7 @@ body {
     color: white;
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background:url("city-photo.jpeg"); /* green background */
+    background:url("home.jpg"); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
 
   .header .overlay {
     position:absolute;
-    background:rgba(163,210,213,0.6);
+    background:rgba(82, 106, 58, 0.632);
     top:400px;
     left:51%;
     transform:translate(-50%,-50%);
@@ -46,7 +46,7 @@ body {
 
   .header .overlay p {
     background: rgba(255,255,255,0.7);
-    color:#6AA5A9;
+    color:rgb(82, 106, 58);
     font-size:16px;
     border:none;
     padding:10px 30px;
@@ -57,7 +57,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
     color: white;
     overflow: hidden; /* Hide overflow */
-    background-color: #6AA5A9; /* Dark background color */
+    background-color: rgb(56, 72, 39); /* Dark background color */
     size: 100vh;
   }
   
@@ -79,8 +79,8 @@ body {
   
   /* Change color on hover/mouse-over */
   .navbar a:hover {
-    background-color: #a3d2d5; /* Grey background color */
-    color: #45625d; /* Black text color */
+    background-color: rgb(71, 91, 50); /* Grey background color */
+    color: white; /* Black text color */
   }
 
 /*

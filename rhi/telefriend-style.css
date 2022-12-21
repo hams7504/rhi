@@ -4,11 +4,9 @@ html {
   }
   
   body {
-      font-family: Arial, Helvetica, sans-serif;
       color: black;
-      background-color: aliceblue;
       height: 200px;
-      background-color: #a3d2d5;
+      background-color: rgb(139, 187, 130);
 
   }
 
@@ -23,12 +21,12 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background:rgba(163,210,213,0.6);
-    width: 400px;
-    color:black;
-    padding:50px;
+    background:rgba(163, 213, 184, 0.6);
+    width: 600px;
+    color:rgb(56, 72, 39);
+    padding:60px;
     text-align:center;
-    font-weight: bold;
+    font-size: 38px;
   }
 
   .side {
@@ -40,8 +38,8 @@ html {
     margin: 1%;
     padding:1%;
     text-align: center;
-    background:#6AA5A9;
-    box-shadow: -24px -24px 2px 1px #40797D ;
+    background:rgb(79, 134, 101);
+    box-shadow: -24px -24px 2px 1px rgb(50, 86, 64) ;
     color: white;
     width:500px;
     font-family: 'Inter';
@@ -118,12 +116,13 @@ html {
   }
 
 
-.navbar {
-    color: white;
-    overflow: hidden; /* Hide overflow */
-    background-color: #6AA5A9; /* Dark background color */
-    size: 100vh;
-  }
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      overflow: hidden; /* Hide overflow */
+      background-color: rgb(56, 72, 39); /* Dark background color */
+      size: 100vh;
+    }
   
   /* Style the navigation bar links */
   .navbar a {
@@ -141,8 +140,7 @@ html {
     float: right; /* Float a link to the right */
   }
   
-  /* Change color on hover/mouse-over */
   .navbar a:hover {
-    background-color: #a3d2d5; /* Grey background color */
-    color: #45625d; /* Black text color */
+    background-color: rgb(71, 91, 50); /* Grey background color */
+    color: white; /* Black text color */
   }
