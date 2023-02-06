@@ -24,10 +24,10 @@ html {
     transform: translate(-50%, -50%);
     background:rgba(163, 213, 184, 0.6);
     width: 600px;
-    color:rgb(56, 72, 39);
-    padding:60px;
+    color:rgb(46, 59, 32);
+    padding:30px;
     text-align:center;
-    font-size: 38px;
+    font-size: 33px;
   }
 
   .description {
