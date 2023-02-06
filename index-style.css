@@ -6,6 +6,7 @@ body {
     color: black;
     background-color: aliceblue;
     height: 200px;
+    font-family: sans-serif;
 }
 
 .header {
