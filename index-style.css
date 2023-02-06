@@ -14,7 +14,7 @@ body {
     color: white;
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background:url("home.jpg"); 
+    background:url("main-background.jpg"); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
